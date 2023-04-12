@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <h3>URL Parameters Demo</h3>
+    </head>
+    <body>
+        <h3 id="h3id"></h3>
+    </body>
+    <script>
+        const myh3 = document.querySelector("#h3id");
+        const params = new Proxy(new URLSearchParams(window.location.search), {
+            get: (searchParams, prop) => searchParams.get(prop),
+        })
+        let value = params.emailid2;
+        myh3.textContent = `for email you entered: ${value}`;
+    </script>
+</html>

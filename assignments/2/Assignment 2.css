@@ -1,0 +1,57 @@
+body {
+    text-align: center;
+    background-color: #fff;
+  }
+  
+.container{
+    display: grid;
+    gap: 20px;
+    margin: auto;
+  }
+  
+#subs{
+    padding-top: 50px;
+  }
+  
+#sides{
+    padding-top: 50px;
+  }
+  
+#drinks{
+    padding-top: 50px;
+  }
+  
+  
+/* Code for checkout page*/
+body{
+  text-align: center;
+  background-color: #fff;
+}
+  
+.checkboxes{
+    text-align: center;
+}
+  
+#hotsubs {
+    padding-top: 25px;
+  }
+  
+#desserts{
+    padding-top: 25px;
+  }
+#paymentinfo{
+    padding-top: 25px;
+  }
+
+input:valid {
+    background-color: palegreen;
+}
+input:invalid {
+    background-color: lightpink;
+}
+
+#validation{
+  text-align: center;
+  background-color: #fff;
+ 
+}

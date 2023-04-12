@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang= "en">
+<head>
+    <link rel="stylesheet" href= "Assignment 1.css" >
+    <title> Firehouse Subs</title>
+</head>
+
+<body>
+    <img src = "images/firehouse logo.png" width = 400 alt = "Firehouse subs logo" />
+    <div>
+        <h2>Check Out</h2>
+        <div>
+            <h3>Menu Selection</h3>
+            <form>
+                <p>Please choose your order from the options below.</p>
+
+                <div id="hotsubs">
+                    <h3><label for="hot subs">Hot Specialty Subs</label></h3><br>
+                </div>
+                <div class="checkboxes">
+                    <input type="checkbox" id="sub 1" value="hook n ladder">
+                    <label for="sub 1">Hook & Ladder</label> <br>
+                    <input type="checkbox" id="sub 2" value="italian">
+                    <label for="sub 2">The Italian</label> <br>
+                    <input type="checkbox" id="sub 3" value="engineer">
+                    <label for="sub 3">The Engineer</label><br>
+                </div>
+
+                <div id="desserts">
+                    <h3><label for= "sides">Sides & Desserts</label></h3><br>
+                </div>
+                <div>
+                    <input type="checkbox" id="side 1" value="chips">
+                    <label for="side 1">Chips</label><br>
+                    <input type="checkbox" id="side 2" value="side salad">
+                    <label for="side 2">Side Salad</label> <br>
+                    <input type="checkbox" id="side 3" value="mac n cheese">
+                    <label for="side 3">Five Cheese Mac 'n Cheese</label><br>
+                    <input type="checkbox" id="side 4" value="brownie">
+                    <label for="side 4">Brownie</label><br>
+                </div>
+            </form>
+        </div>
+
+        <div>
+            <div id="paymentinfo">
+                <h3>Payment Information</h3>
+            </div>
+            <form>
+                <p>Please enter your payment information below.</p>
+                <div>
+                    <label for="text1">First Name</label>
+                    <input id="text1" type="text" /><br>
+                    <label for="text2">Last Initial</label>
+                    <input id="text2" type="text" />
+                    <div>
+                        <label for="select">Select Card Type</label>
+                        <select id="select">
+                            <option value="1">Visa</option>
+                            <option value="2">MasterCard</option>
+                            <option value="3">Discover</option>
+                        </select>
+                    </div>
+                    
+                    <div>
+                        <label for="card number">Card Number</label>
+                        <input id="card number" text="text"/>
+                    </div>
+
+                    <div>
+                        <button>Submit Order</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div> 
+
+</body>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+    <head>
+        <h1>Cool buttons and boxes</h1>
+    </head>
+    <body>
+        <h3>Do buttons do cool stuff?</h3>
+        <input type="text" name="coolbox" id="coolbox"/>
+        <button id="coolbtn" name= "coolbtn">
+            This is the cool button
+        </button>
+        <h3 id= "errorzone"></h3>
+        <script>
+            const myButton = document.querySelector("#coolbtn");
+            const myBox = document.querySelector("#coolbox");
+            const myErrors = document.querySelector("#errorzone");
+
+            myButton.onclick = function() {
+
+                if (myBox.value.length == 0){
+                    myErrors.textContent = "Hey you left it blank!"
+                }
+                else{
+                    myErrors.textContent = "Hey you clicked...." + myBox.value;
+                }
+
+            };
+            myButton.onblur = function (){
+                myErrors.textContent += "\nHey you left the box"
+            }
+                
+            
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,11 @@
+{
+  "dependencies": {
+    "@apollo/client": "^3.7.10",
+    "@emotion/react": "^11.10.6",
+    "@emotion/styled": "^11.10.6",
+    "@graphql-tools/mock": "^8.7.19",
+    "@graphql-tools/schema": "^9.0.17",
+    "@mui/material": "^5.11.12",
+    "graphql": "^16.6.0"
+  }
+}
